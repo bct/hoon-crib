@@ -14,6 +14,8 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in {
         packages = {
+          default = pkgs.callPackage ./. { };
+
           # copy the raw markdown files files from the input repo
           dump-runes = pkgs.writeShellScriptBin "dump-runes" ''
             ${pkgs.ruby}/bin/ruby dump-runes.rb ${developers-urbit-org} ./runes/
