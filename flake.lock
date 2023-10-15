@@ -1,0 +1,75 @@
+{
+  "nodes": {
+    "developers-urbit-org": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1697129111,
+        "narHash": "sha256-a3yhaSOusNnYfXHALjKia8/Bdv2avXTU+Xw9g0qSCik=",
+        "owner": "urbit",
+        "repo": "developers.urbit.org",
+        "rev": "4c272d75ef15a780d1dc991b551ef58729a99171",
+        "type": "github"
+      },
+      "original": {
+        "owner": "urbit",
+        "repo": "developers.urbit.org",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1694529238,
+        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1695825837,
+        "narHash": "sha256-4Ne11kNRnQsmSJCRSSNkFRSnHC4Y5gPDBIQGjjPfJiU=",
+        "path": "/nix/store/mrqyw5xdivdymj83v5d9jzzs2ifmw8h0-source",
+        "rev": "5cfafa12d57374f48bcc36fda3274ada276cf69e",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "developers-urbit-org": "developers-urbit-org",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
